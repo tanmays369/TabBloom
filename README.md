@@ -5,6 +5,10 @@
 TabBloom is a Firefox extension (WebExtensions, Manifest V3) that captures every open tab across every window and presents them in a two-panel UI with intelligent, deterministic grouping. It does not rely on any external AI, LLM, or heavyweight framework — the entire grouping engine is pure vanilla JavaScript running a multi-stage pipeline that normalizes URLs, extracts structural signals, clusters by contextual similarity, and deduplicates near-identical entries.
 
 ---
+## Video Link (how does TabBloom work)
+
+https://youtu.be/-ulyEoXWk78
+---
 
 ## What Makes TabBloom Special
 
