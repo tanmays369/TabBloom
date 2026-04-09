@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "TabBloom",
+  "version": "2.0.0",
+  "description": "Intelligently organize, group, and save all your open tabs with a beautiful interface.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    }
+  },
+  "background": {
+    "scripts": ["grouper.js", "background.js"]
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tabbloom@extension",
+      "strict_min_version": "109.0"
+    }
+  }
+}
